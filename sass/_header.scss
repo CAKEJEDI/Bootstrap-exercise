@@ -1,0 +1,120 @@
+.header{
+    background-color: #141c25;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    overflow-y: auto;
+    position: sticky;
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .middle-header{
+        a{
+            text-align: center;
+            padding: 0.5rem;
+            background-color: rgb(51, 51, 51);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .img-circle{
+        img{
+        border: 8px solid rgb(51, 51, 51);
+        width: 120px;
+        margin: auto;
+        display: block;
+    }
+    .h1-header{
+        h1,h2,h3,h4,h5,h6{
+            font-size: 20px;
+        }
+    }
+
+    }
+    .navbar-header{
+        line-height: 4rem;
+        ul{
+            li{
+                a{
+                    font-size: 18px;
+                    color: rgb(168, 168, 168);
+                    i{
+                        margin-right: 10px;
+                    }
+                    svg{
+                        margin-right: 10px;
+                    }
+                   
+                }
+                
+            }
+        }
+        .chiveron{
+            text-align: center;
+            padding: 0.5rem;
+            background-color: rgb(51, 51, 51);
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            margin: 0;
+            margin-left: 7rem;
+        }
+
+        .chiveron2{
+            text-align: center;
+            padding: 0.5rem;
+            background-color: rgb(51, 51, 51);
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            margin: 0;
+            margin-left: 5rem;
+        }
+        .has-child2{
+            display: none;
+             position: static;
+            border: 1px solid rgb(63, 63, 63);
+            padding: 0;
+            width: 12rem;
+            margin: auto;
+        }
+        .parent{
+            position: relative;
+
+        }            
+        .child{
+            display: none;
+            position: static;
+            border: 1px solid rgb(63, 63, 63);
+            padding: 0;
+            li{
+                a{
+                    padding: 0 1rem;
+                }
+            }
+            .chiveron3{
+                text-align: center;
+                padding: 0.5rem;
+                background-color: rgb(51, 51, 51);
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                margin: 0;
+                margin-left: 5.5rem;
+            }
+        }
+        .parent:active{
+            .child{
+                display: block;
+            }
+        }
+
+    }
+
+}
